@@ -18,7 +18,9 @@ const { title } = doc.data;
 
 <Layout title={title}>
   <main class="px-md py-lg">
-    <article class="content [&_.astro-code]:p-xs [&_.astro-code]:rounded-md">
+    <article
+      class="content [&_.astro-code]:p-xs [&_ol]:space-y-sm [&_.astro-code]:rounded-md"
+    >
       <h1>{title}</h1>
       <hr />
       <Content />
