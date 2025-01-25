@@ -1,0 +1,5 @@
+@theme {
+  --color-primary: var(--color-blue-500);
+  --color-secondary: var(--color-blue-700);
+  --color-tertiary: var(--color-blue-900);
+}
