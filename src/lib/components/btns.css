@@ -1,8 +1,8 @@
 @layer components {
   .btns {
-    @apply flex flex-wrap gap-4;
+    @apply gap-2xs flex flex-wrap;
   }
   .btn {
-    @apply inline-block rounded-md bg-blue-500 px-4 py-2 text-white;
+    @apply px-sm py-xs inline-block rounded-md bg-blue-500 text-white;
   }
 }
