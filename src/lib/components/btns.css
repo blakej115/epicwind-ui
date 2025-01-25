@@ -3,6 +3,27 @@
     @apply gap-2xs flex flex-wrap;
   }
   .btn {
-    @apply px-sm py-xs inline-block rounded-md bg-blue-500 text-white;
+    @apply px-sm py-xs bg-default inline-block rounded-md text-white transition-colors;
+    @variant hover {
+      @apply bg-secondary;
+    }
+  }
+  .btn-light {
+    @apply bg-light;
+  }
+  .btn-default {
+    @apply bg-default;
+  }
+  .btn-dark {
+    @apply bg-dark;
+  }
+  .btn-primary {
+    @apply bg-primary;
+  }
+  .btn-secondary {
+    @apply bg-secondary;
+  }
+  .btn-tertiary {
+    @apply bg-tertiary;
   }
 }

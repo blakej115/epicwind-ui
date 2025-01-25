@@ -1,9 +1,11 @@
 ---
 const { href } = Astro.props;
+
+const { pathname } = new URL(Astro.request.url);
 ---
 
-<li>
-  <a href={href}>
+<li class={pathname === href ? "active" : ""}>
+  <a class="pl-sm" href={href}>
     <slot />
   </a>
 </li>

@@ -1,12 +1,24 @@
 @layer components {
   .sidebar {
-    @apply flex flex-col bg-gray-300;
+    @apply bg-light flex flex-col;
     ul {
       li {
         a {
-          @apply px-sm py-xs block;
+          @apply px-sm py-xs block transition-colors;
           @variant hover {
-            @apply bg-blue-500 text-white;
+            @apply bg-secondary text-white;
+          }
+        }
+        &.active {
+          a {
+            @apply bg-primary text-white;
+          }
+        }
+        ul {
+          li {
+            a {
+              @apply pl-md;
+            }
           }
         }
       }

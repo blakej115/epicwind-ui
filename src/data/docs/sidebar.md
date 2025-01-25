@@ -2,15 +2,69 @@
 title: "Sidebar Component"
 ---
 
-<!-- prettier-ignore -->
-```html
-<div class="flex flex-col bg-gray-300">
+## Basic Usage
+
+<aside class="sidebar not-content">
   <ul>
     <li>
-      <a class="block px-4 py-2 hover:bg-blue-500 hover:text-white" href="#">Home</a>
-      <a class="block px-4 py-2 hover:bg-blue-500 hover:text-white" href="#">About</a>
-      <a class="block px-4 py-2 hover:bg-blue-500 hover:text-white" href="#">Contact</a>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+      <ul>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
     </li>
   </ul>
-</div>
+</aside>
+
+<!-- prettier-ignore -->
+```html
+<aside class="sidebar">
+  <ul>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+      <ul>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+        <li>
+          <a href="#">Sidebar Sub Link</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+    <li>
+      <a href="#">Sidebar Link</a>
+    </li>
+  </ul>
+</aside>
 ```

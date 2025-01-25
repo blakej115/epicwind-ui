@@ -2,6 +2,8 @@
 import "@fontsource-variable/montserrat";
 import "../styles/global.css";
 import Sidebar from "../components/Sidebar.astro";
+
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -11,7 +13,7 @@ import Sidebar from "../components/Sidebar.astro";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Epicwind UI</title>
+    <title>{title ? `${title} -` : ""} Epicwind UI</title>
   </head>
   <body>
     <div class="grid grid-cols-1 md:min-h-screen md:grid-cols-[250px_1fr]">

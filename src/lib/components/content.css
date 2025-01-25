@@ -1,39 +1,56 @@
 @layer components {
   .content {
-    @apply flex flex-col gap-y-4;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    @apply gap-y-sm flex flex-col;
+    a:not(.not-content, .not-content *) {
+      @apply text-primary transition-colors;
+      @variant hover {
+        @apply text-secondary;
+      }
+    }
+    h1:not(.not-content, .not-content *),
+    h2:not(.not-content, .not-content *),
+    h3:not(.not-content, .not-content *),
+    h4:not(.not-content, .not-content *),
+    h5:not(.not-content, .not-content *),
+    h6:not(.not-content, .not-content *) {
       @apply font-bold;
     }
-    h1 {
+    h1:not(.not-content, .not-content *) {
       @apply text-4xl;
     }
-    h2 {
+    h2:not(.not-content, .not-content *) {
       @apply text-3xl;
     }
-    h3 {
+    h3:not(.not-content, .not-content *) {
       @apply text-2xl;
     }
-    h4 {
+    h4:not(.not-content, .not-content *) {
       @apply text-xl;
     }
-    h5 {
+    h5:not(.not-content, .not-content *) {
       @apply text-lg;
     }
-    h6 {
+    h6:not(.not-content, .not-content *) {
       @apply text-base;
     }
-    ol {
-      @apply list-inside list-decimal;
-      li {
-        > * {
+    ul:not(.not-content, .not-content *) {
+      @apply list-inside list-disc;
+      li:not(.not-content, .not-content *) {
+        > :not(.not-content, .not-content *) {
           @apply inline;
         }
       }
+    }
+    ol:not(.not-content, .not-content *) {
+      @apply list-inside list-decimal;
+      li:not(.not-content, .not-content *) {
+        > :not(.not-content, .not-content *) {
+          @apply inline;
+        }
+      }
+    }
+    hr:not(.not-content, .not-content *) {
+      @apply border-light;
     }
   }
 }

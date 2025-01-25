@@ -13,12 +13,14 @@ export async function getStaticPaths() {
 
 const { doc } = Astro.props;
 const { Content } = await render(doc);
+const { title } = doc.data;
 ---
 
-<Layout>
-  <main class="px-8 py-16">
-    <article class="content [&_.astro-code]:rounded-md [&_.astro-code]:p-4">
-      <h1>{doc.data.title}</h1>
+<Layout title={title}>
+  <main class="px-md py-lg">
+    <article class="content [&_.astro-code]:p-xs [&_.astro-code]:rounded-md">
+      <h1>{title}</h1>
+      <hr />
       <Content />
     </article>
   </main>
