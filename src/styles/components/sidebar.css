@@ -4,7 +4,10 @@
     ul {
       li {
         a {
-          @apply block px-4 py-2 hover:bg-blue-500 hover:text-white;
+          @apply block px-4 py-2;
+          @variant hover {
+            @apply bg-blue-500 text-white;
+          }
         }
       }
     }
