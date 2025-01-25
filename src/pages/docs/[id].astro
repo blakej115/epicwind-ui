@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const docs = await getCollection("docs");
+
+  return docs.map((doc) => ({
+    params: { id: doc.id },
+    props: { doc },
+  }));
+}
+
+const { doc } = Astro.props;
+const { Content } = await render(doc);
+---
+
+<Layout>
+  <main class="px-8 py-16">
+    <article class="content [&_.astro-code]:rounded-md [&_.astro-code]:p-4">
+      <h1>{doc.data.title}</h1>
+      <Content />
+    </article>
+  </main>
+</Layout>
