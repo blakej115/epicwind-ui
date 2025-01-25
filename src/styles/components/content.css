@@ -27,5 +27,13 @@
     h6 {
       @apply text-base;
     }
+    ol {
+      @apply list-inside list-decimal;
+      li {
+        > * {
+          @apply inline;
+        }
+      }
+    }
   }
 }
