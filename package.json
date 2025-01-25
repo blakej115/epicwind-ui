@@ -2,6 +2,9 @@
   "name": "epicwind-ui",
   "type": "module",
   "version": "0.0.1",
+  "exports": {
+    ".": "./src/styles/epicwind-ui.css"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
