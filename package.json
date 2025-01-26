@@ -6,7 +6,7 @@
   "description": "Lightweight, free, pure CSS components for Tailwind CSS.",
   "homepage": "https://epicwindui.blakejones.dev/",
   "exports": {
-    ".": "./src/styles/epicwind-ui.css"
+    ".": "./src/lib/epicwind-ui.css"
   },
   "scripts": {
     "dev": "astro dev",
