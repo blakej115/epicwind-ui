@@ -1,0 +1,28 @@
+@layer components {
+  .form {
+    @apply gap-y-md flex flex-col items-start;
+  }
+
+  .form-full {
+    .input,
+    .field {
+      @apply w-full;
+    }
+  }
+
+  .input {
+    @apply gap-y-xs flex flex-col items-start;
+  }
+
+  .label {
+    @apply font-bold;
+  }
+
+  .field {
+    @apply border-default py-xs px-sm focus:border-primary border transition-colors focus:outline-0;
+  }
+
+  textarea.field {
+    @apply h-32;
+  }
+}
