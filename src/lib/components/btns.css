@@ -3,19 +3,31 @@
     @apply gap-2xs flex flex-wrap;
   }
   .btn {
-    @apply px-sm py-xs bg-default inline-block cursor-pointer rounded-md text-white transition-colors;
+    @apply px-sm py-xs bg-neutral inline-block cursor-pointer rounded-md text-white transition-colors;
     @variant hover {
-      @apply bg-secondary;
+      @apply bg-dark;
     }
   }
-  .btn-light {
-    @apply bg-light;
+  .btn-white {
+    @apply bg-white text-black;
   }
-  .btn-default {
-    @apply bg-default;
+  .btn-black {
+    @apply bg-black;
+  }
+  .btn-lightest {
+    @apply bg-lightest text-black;
+  }
+  .btn-light {
+    @apply bg-light text-black;
+  }
+  .btn-neutral {
+    @apply bg-neutral;
   }
   .btn-dark {
-    @apply bg-dark;
+    @apply bg-dark hover:bg-black;
+  }
+  .btn-darkest {
+    @apply bg-darkest;
   }
   .btn-primary {
     @apply bg-primary;
@@ -25,5 +37,32 @@
   }
   .btn-tertiary {
     @apply bg-tertiary;
+  }
+  .btn-quaternary {
+    @apply bg-quaternary;
+  }
+  .btn-success {
+    @apply bg-success hover:bg-success-secondary;
+  }
+  .btn-error {
+    @apply bg-error hover:bg-error-secondary;
+  }
+  .btn-notice {
+    @apply bg-notice hover:bg-notice-secondary;
+  }
+  .btn-warning {
+    @apply bg-warning hover:bg-warning-secondary;
+  }
+  .btn-info {
+    @apply bg-info hover:bg-info-secondary;
+  }
+  .btn-deprecated {
+    @apply bg-deprecated hover:bg-deprecated-secondary;
+  }
+  .btn-decorative {
+    @apply bg-decorative hover:bg-decorative-secondary;
+  }
+  .btn-muted {
+    @apply bg-muted hover:bg-muted-secondary;
   }
 }

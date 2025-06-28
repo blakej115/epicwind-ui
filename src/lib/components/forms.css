@@ -19,7 +19,7 @@
   }
 
   .field {
-    @apply border-default py-xs px-sm focus:border-primary border transition-colors focus:outline-0;
+    @apply border-neutral py-xs px-sm focus:border-primary border transition-colors focus:outline-0;
   }
 
   textarea.field {
