@@ -1,25 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Logo from "../assets/logo.svg";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout>
   <section class="hero min-h-auto md:min-h-screen">
-    <article class="content items-center text-center">
-      <h1
-        class="before:border-primary relative before:absolute before:-top-[10px] before:-left-[12px] before:-z-10 before:block before:size-8 before:border-4"
-      >
-        Epicwind UI
-      </h1>
+    <article class="content flex-grow items-center justify-center text-center">
+      <Logo class="h-auto w-full" />
       <p>Lightweight, free, pure CSS components for Tailwind CSS.</p>
       <div class="btns not-content justify-center">
         <a class="btn btn-primary" href="/docs/get-started">Get Started</a>
       </div>
-      <p>
-        <small
-          >Epicwind UI is NOT associated with Tailwind CSS. Tailwind CSS is
-          copyright of its respected owners.</small
-        >
-      </p>
     </article>
+    <Footer />
   </section>
 </Layout>

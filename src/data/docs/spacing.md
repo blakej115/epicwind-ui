@@ -15,5 +15,6 @@ Epicwind UI includes a naming convention for spacing. You can replace the defaul
   --spacing-md: calc(var(--spacing) * 8);
   --spacing-lg: calc(var(--spacing) * 16);
   --spacing-xl: calc(var(--spacing) * 32);
+  --spacing-2xl: calc(var(--spacing) * 64);
 }
 ```
