@@ -3,31 +3,28 @@
     @apply gap-2xs flex flex-wrap;
   }
   .btn {
-    @apply px-sm py-xs bg-neutral inline-block cursor-pointer rounded-md text-white transition-colors;
-    @variant hover {
-      @apply bg-dark;
-    }
+    @apply px-sm py-xs bg-neutral hover:bg-dark inline-block cursor-pointer rounded-md text-white transition-colors;
   }
   .btn-white {
-    @apply bg-white text-black;
+    @apply hover:bg-neutral bg-white text-black hover:text-white;
   }
   .btn-black {
-    @apply bg-black;
+    @apply hover:bg-neutral bg-black;
   }
   .btn-lightest {
-    @apply bg-lightest text-black;
+    @apply bg-lightest hover:bg-light text-black;
   }
   .btn-light {
-    @apply bg-light text-black;
+    @apply bg-light hover:bg-neutral text-black hover:text-white;
   }
   .btn-neutral {
-    @apply bg-neutral;
+    @apply bg-neutral hover:bg-dark;
   }
   .btn-dark {
-    @apply bg-dark hover:bg-black;
+    @apply bg-dark hover:bg-darkest;
   }
   .btn-darkest {
-    @apply bg-darkest;
+    @apply bg-darkest hover:bg-black;
   }
   .btn-primary {
     @apply bg-primary;

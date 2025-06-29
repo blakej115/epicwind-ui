@@ -5,13 +5,15 @@ title: "Buttons Component"
 ## Basic Usage
 
 <div class="btns not-content">
-  <a class="btn" href="#">Button</a>
+  <a class="btn" href="#">Button (a tag)</a>
+  <button class="btn">Button (button tag)</button>
 </div>
 
 <!-- prettier-ignore -->
 ```html
 <div class="btns">
-  <a class="btn" href="#">Button</a>
+  <a class="btn" href="#">Button (a tag)</a>
+  <button class="btn">Button (button tag)</button>
 </div>
 ```
 
@@ -36,14 +38,14 @@ title: "Buttons Component"
   <a class="btn btn-tertiary" href="#">Tertiary Button</a>
   <a class="btn btn-quaternary" href="#">Quaternary Button</a>
   <hr class="w-full border-0">
-  <a class="btn btn-success">Success Button</a>
-  <a class="btn btn-error">Error Button</a>
-  <a class="btn btn-warning">Warning Button</a>
-  <a class="btn btn-notice">Notice Button</a>
-  <a class="btn btn-info">Info Button</a>
-  <a class="btn btn-deprecated">Deprecated Button</a>
-  <a class="btn btn-decorative">Decorative Button</a>
-  <a class="btn btn-muted">Muted Button</a>
+  <a class="btn btn-success" href="#">Success Button</a>
+  <a class="btn btn-error" href="#">Error Button</a>
+  <a class="btn btn-warning" href="#">Warning Button</a>
+  <a class="btn btn-notice" href="#">Notice Button</a>
+  <a class="btn btn-info" href="#">Info Button</a>
+  <a class="btn btn-deprecated" href="#">Deprecated Button</a>
+  <a class="btn btn-decorative" href="#">Decorative Button</a>
+  <a class="btn btn-muted" href="#">Muted Button</a>
 </div>
 
 <!-- prettier-ignore -->
@@ -63,13 +65,13 @@ title: "Buttons Component"
   <a class="btn btn-tertiary" href="#">Tertiary Button</a>
   <a class="btn btn-quaternary" href="#">Quaternary Button</a>
   <hr class="w-full border-0">
-  <a class="btn btn-success">Success Button</a>
-  <a class="btn btn-error">Error Button</a>
-  <a class="btn btn-warning">Warning Button</a>
-  <a class="btn btn-notice">Notice Button</a>
-  <a class="btn btn-info">Info Button</a>
-  <a class="btn btn-deprecated">Deprecated Button</a>
-  <a class="btn btn-decorative">Decorative Button</a>
-  <a class="btn btn-muted">Muted Button</a>
+  <a class="btn btn-success" href="#">Success Button</a>
+  <a class="btn btn-error" href="#">Error Button</a>
+  <a class="btn btn-warning" href="#">Warning Button</a>
+  <a class="btn btn-notice" href="#">Notice Button</a>
+  <a class="btn btn-info" href="#">Info Button</a>
+  <a class="btn btn-deprecated" href="#">Deprecated Button</a>
+  <a class="btn btn-decorative" href="#">Decorative Button</a>
+  <a class="btn btn-muted" href="#">Muted Button</a>
 </div>
 ```
