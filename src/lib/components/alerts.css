@@ -1,0 +1,62 @@
+@layer components {
+  .alert {
+    @apply px-md py-sm bg-neutral block rounded-md text-white transition-colors;
+  }
+  .alert-white {
+    @apply bg-white text-black;
+  }
+  .alert-black {
+    @apply bg-black;
+  }
+  .alert-lightest {
+    @apply bg-lightest text-black;
+  }
+  .alert-light {
+    @apply bg-light text-black;
+  }
+  .alert-neutral {
+    @apply bg-neutral;
+  }
+  .alert-dark {
+    @apply bg-dark;
+  }
+  .alert-darkest {
+    @apply bg-darkest;
+  }
+  .alert-primary {
+    @apply bg-primary;
+  }
+  .alert-secondary {
+    @apply bg-secondary;
+  }
+  .alert-tertiary {
+    @apply bg-tertiary;
+  }
+  .alert-quaternary {
+    @apply bg-quaternary;
+  }
+  .alert-success {
+    @apply bg-success;
+  }
+  .alert-error {
+    @apply bg-error;
+  }
+  .alert-notice {
+    @apply bg-notice;
+  }
+  .alert-warning {
+    @apply bg-warning;
+  }
+  .alert-info {
+    @apply bg-info;
+  }
+  .alert-deprecated {
+    @apply bg-deprecated;
+  }
+  .alert-decorative {
+    @apply bg-decorative;
+  }
+  .alert-muted {
+    @apply bg-muted;
+  }
+}
