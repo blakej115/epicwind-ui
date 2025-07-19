@@ -1,0 +1,4 @@
+@theme {
+  --default-grid-gap: var(--spacing-md);
+  --default-flex-gap: var(--spacing-md);
+}

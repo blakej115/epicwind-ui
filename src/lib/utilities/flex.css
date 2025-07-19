@@ -1,0 +1,24 @@
+@utility flex-row-* {
+  --flex-cols: --value(integer);
+  --flex-gap: calc(var(--default-flex-gap) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@utility flex-gap-* {
+  --flex-gap: calc(var(--default-flex-gap) / 2);
+}
+
+@utility flex-col-* {
+  width: calc(100% / var(--flex-cols) * --value(integer));
+  flex-grow: 0;
+  padding-left: var(--flex-gap);
+  padding-right: var(--flex-gap);
+}
+
+@utility flex-col-fill {
+  width: auto;
+  flex-grow: 1;
+  padding-left: var(--flex-gap);
+  padding-right: var(--flex-gap);
+}

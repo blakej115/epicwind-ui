@@ -1,0 +1,9 @@
+@utility grid-row-* {
+  display: grid;
+  gap: var(--default-grid-gap);
+  grid-template-columns: repeat(--value(integer), minmax(0, 1fr));
+}
+
+@utility grid-col-* {
+  grid-column: span --value(integer);
+}
