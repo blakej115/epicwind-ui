@@ -1,5 +1,5 @@
 ---
-title: "Defaults"
+title: "Theme Defaults"
 ---
 
 Some default CSS variables are included to change defaults for various components and utilities included with Epicwind UI.

@@ -1,0 +1,16 @@
+@layer components {
+  .nav {
+    @apply flex;
+    ul {
+      @apply gap-md flex;
+      li {
+        a {
+          @apply text-primary block transition-colors;
+          @variant hover {
+            @apply text-secondary;
+          }
+        }
+      }
+    }
+  }
+}

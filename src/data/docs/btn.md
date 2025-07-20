@@ -1,5 +1,5 @@
 ---
-title: "Buttons Component"
+title: "Button Components"
 ---
 
 ## Basic Usage

@@ -3,21 +3,24 @@ import SidebarLink from "./SidebarLink.astro";
 import Logo from "../assets/logo.svg";
 ---
 
-<aside class="sidebar">
-  <div class="px-md py-sm flex justify-center">
-    <Logo class="h-auto w-full max-w-[186px]" />
+<aside class="sidebar pb-sm sticky top-0 h-screen overflow-y-auto">
+  <div class="logo px-md py-sm flex justify-center">
+    <a href="/">
+      <Logo class="h-auto w-full max-w-[186px]" />
+    </a>
   </div>
   <ul>
     <SidebarLink href="/">Home</SidebarLink>
     <SidebarLink href="/docs/get-started">Get Started</SidebarLink>
+    <SidebarLink href="/docs/theming">Theming</SidebarLink>
     <li>
       <div class="content px-sm py-xs">
-        <h5>Vars</h5>
+        <h5>Theme</h5>
       </div>
       <ul>
         <SidebarLink href="/docs/colors">Colors</SidebarLink>
-        <SidebarLink href="/docs/spacing">Spacing</SidebarLink>
         <SidebarLink href="/docs/defaults">Defaults</SidebarLink>
+        <SidebarLink href="/docs/spacing">Spacing</SidebarLink>
       </ul>
     </li>
     <li>
@@ -25,8 +28,13 @@ import Logo from "../assets/logo.svg";
         <h5>Layout</h5>
       </div>
       <ul>
-        <SidebarLink href="/docs/grid">Grid</SidebarLink>
-        <SidebarLink href="/docs/flex">Flex</SidebarLink>
+        <SidebarLink href="/docs/header">Header</SidebarLink>
+        <SidebarLink href="/docs/flex">Flex Layout</SidebarLink>
+        <SidebarLink href="/docs/grid">Grid Layout</SidebarLink>
+        {/*<SidebarLink href="/docs/helpers">Layout Helpers</SidebarLink>*/}
+        <SidebarLink href="/docs/sidebar">Sidebar</SidebarLink>
+        {/*<SidebarLink href="/docs/footer">Footer</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/bar">Bar</SidebarLink>*/}
       </ul>
     </li>
     <li>
@@ -34,13 +42,73 @@ import Logo from "../assets/logo.svg";
         <h5>Components</h5>
       </div>
       <ul>
-        <SidebarLink href="/docs/alerts">Alerts</SidebarLink>
-        <SidebarLink href="/docs/btns">Buttons</SidebarLink>
+        {/*<SidebarLink href="/docs/accordion">Accordion</SidebarLink>*/}
+        <SidebarLink href="/docs/alert">Alert</SidebarLink>
+        {/*<SidebarLink href="/docs/box">Box</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/breadcrumb">Breadcrumb</SidebarLink>*/}
+        <SidebarLink href="/docs/btn">Button</SidebarLink>
+        {/*<SidebarLink href="/docs/card">Card</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/chat">Chat</SidebarLink>*/}
         <SidebarLink href="/docs/content">Content</SidebarLink>
-        <SidebarLink href="/docs/forms">Forms</SidebarLink>
+        {/*<SidebarLink href="/docs/dialog">Dialog</SidebarLink>*/}
+        <SidebarLink href="/docs/form">Form</SidebarLink>
         <SidebarLink href="/docs/hero">Hero</SidebarLink>
-        <SidebarLink href="/docs/sidebar">Sidebar</SidebarLink>
+        <SidebarLink href="/docs/logo">Logo</SidebarLink>
+        {/*<SidebarLink href="/docs/menu">Menu</SidebarLink>*/}
+        <SidebarLink href="/docs/nav">Nav</SidebarLink>
+        {/*<SidebarLink href="/docs/pagination">Pagination</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/search">Search</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/slider">Slider</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/status">Status</SidebarLink>*/}
+        {/*<SidebarLink href="/docs/table">Table</SidebarLink>*/}
       </ul>
     </li>
+    {
+      /*<li>
+      <div class="content px-sm py-xs">
+        <h5>Helper Utilities</h5>
+      </div>
+      <ul>
+        <SidebarLink href="/docs/gutter">Gutter</SidebarLink>
+      </ul>
+    </li>
+    <li>
+      <div class="content px-sm py-xs">
+        <h5>CSS Utilities</h5>
+      </div>
+      <ul>
+        <SidebarLink href="/docs/clip-path">clip-path</SidebarLink>
+      </ul>
+    </li>
+    <li>
+      <div class="content px-sm py-xs">
+        <h5>Variants</h5>
+      </div>
+      <ul>
+        <SidebarLink href="/docs/first">:first</SidebarLink>
+        <SidebarLink href="/docs/page">@page</SidebarLink>
+      </ul>
+    </li>
+    <li>
+      <div class="content px-sm py-xs">
+        <h5>Icons</h5>
+      </div>
+      <ul>
+        <SidebarLink href="/docs/icon-menu">Menu</SidebarLink>
+        <SidebarLink href="/docs/icon-search">Search</SidebarLink>
+        <SidebarLink href="/docs/icon-close">Close</SidebarLink>
+      </ul>
+    </li>
+    <li>
+      <div class="content px-sm py-xs">
+        <h5>Integrations</h5>
+      </div>
+      <ul>
+        <SidebarLink href="/docs/ez-dialogs">Ez Dialogs</SidebarLink>
+        <SidebarLink href="/docs/font-awesome">Font Awesome</SidebarLink>
+        <SidebarLink href="/docs/swiper">Swiper</SidebarLink>
+      </ul>
+    </li>*/
+    }
   </ul>
 </aside>

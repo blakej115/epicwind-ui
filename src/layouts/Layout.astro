@@ -16,7 +16,9 @@ const { title } = Astro.props;
     <title>{title ? `${title} -` : ""} Epicwind UI</title>
   </head>
   <body>
-    <div class="grid grid-cols-1 md:min-h-screen md:grid-cols-[250px_1fr]">
+    <div
+      class="grid grid-cols-1 md:min-h-screen md:grid-cols-[250px_minmax(0,1fr)]"
+    >
       <Sidebar />
       <slot />
     </div>

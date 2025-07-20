@@ -1,3 +1,7 @@
 @theme {
   --default-font-family: "Montserrat Variable", sans-serif;
 }
+
+.astro-code {
+  @apply max-w-full;
+}

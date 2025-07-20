@@ -1,8 +1,8 @@
 ---
-title: "Grid Utility"
+title: "Grid Layout Utilities"
 ---
 
-The grid utility provides an easy way to make a grid layout with columns. The parent is set to a display of grid, and a gap is provided by default.
+The grid layout utilities provides an easy way to make a grid layout with columns. The parent is set to a display of grid, and a gap is provided by default.
 
 ## Basic Usage
 

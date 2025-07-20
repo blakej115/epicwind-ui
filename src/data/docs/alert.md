@@ -1,5 +1,5 @@
 ---
-title: "alert.s Component"
+title: "Alert Component"
 ---
 
 ## Basic Usage
