@@ -1,0 +1,5 @@
+@custom-variant any-link {
+  &:any-link {
+    @slot;
+  }
+}

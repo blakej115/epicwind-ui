@@ -1,5 +1,6 @@
 ---
 title: "Sidebar Component"
+slug: "component/sidebar"
 ---
 
 ## Basic Usage

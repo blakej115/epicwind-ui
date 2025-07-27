@@ -5,10 +5,13 @@ import Layout from "../../layouts/Layout.astro";
 export async function getStaticPaths() {
   const docs = await getCollection("docs");
 
-  return docs.map((doc) => ({
-    params: { id: doc.id },
-    props: { doc },
-  }));
+  return docs.map((doc) => {
+    const slug = doc.data.slug.split("/");
+    return {
+      params: { type: slug[0], slug: slug[1] },
+      props: { doc },
+    };
+  });
 }
 
 const { doc } = Astro.props;

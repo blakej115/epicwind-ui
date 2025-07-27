@@ -1,5 +1,6 @@
 ---
 title: "Get Started"
+slug: "intro/get-started"
 ---
 
 ## Install

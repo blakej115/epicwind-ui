@@ -1,5 +1,6 @@
 ---
 title: "Theming"
+slug: "intro/theming"
 ---
 
 ## Customize Your Project
@@ -9,6 +10,8 @@ title: "Theming"
 ### Recommended Folder Structure
 
 While this folder structure is not required, it is recommended. You are free to use any folder structure you like.
+
+Note that Epicwind UI does not have any built in base styling, as Tailwind's defaults are great in this regard.
 
 <!-- prettier-ignore -->
 ```plaintext

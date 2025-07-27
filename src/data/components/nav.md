@@ -1,5 +1,6 @@
 ---
 title: "Nav Component"
+slug: "component/nav"
 ---
 
 ## Basic Usage

@@ -1,5 +1,6 @@
 ---
 title: "Button Components"
+slug: "component/btn"
 ---
 
 ## Basic Usage

@@ -1,5 +1,6 @@
 ---
 title: "Content Component"
+slug: "component/content"
 ---
 
 ## Basic Usage

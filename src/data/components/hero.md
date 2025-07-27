@@ -1,5 +1,6 @@
 ---
 title: "Hero Component"
+slug: "component/hero"
 ---
 
 ## Basic Usage

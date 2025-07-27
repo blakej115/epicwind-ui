@@ -1,0 +1,23 @@
+@utility gutter {
+  padding: var(--default-gutter);
+}
+
+@utility gutter-* {
+  padding: --value(--gutter-*);
+}
+
+@utility gutter-x {
+  padding-inline: var(--default-gutter);
+}
+
+@utility gutter-x-* {
+  padding-inline: --value(--gutter-*);
+}
+
+@utility gutter-y {
+  padding-block: var(--default-gutter);
+}
+
+@utility gutter-y-* {
+  padding-block: --value(--gutter-*);
+}

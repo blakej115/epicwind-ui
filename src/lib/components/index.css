@@ -1,7 +1,7 @@
-@import "./alerts";
-@import "./btns";
+@import "./alert";
+@import "./btn";
 @import "./content";
-@import "./forms";
+@import "./form";
 @import "./header";
 @import "./hero";
 @import "./logo";

@@ -1,5 +1,6 @@
 ---
 title: "Alert Component"
+slug: "component/alert"
 ---
 
 ## Basic Usage

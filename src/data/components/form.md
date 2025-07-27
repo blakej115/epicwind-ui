@@ -1,5 +1,6 @@
 ---
 title: "Form Components"
+slug: "component/form"
 ---
 
 ## Inputs

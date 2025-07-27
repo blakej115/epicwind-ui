@@ -1,5 +1,6 @@
 ---
 title: "Theme Colors"
+slug: "theme/colors"
 ---
 
 ## Basic Usage

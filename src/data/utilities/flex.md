@@ -1,5 +1,6 @@
 ---
 title: "Flex Layout Utilities"
+slug: "utility/flex"
 ---
 
 The flex layout utilities provide an easy way to make a flex layout with columns. The parent is set to a display of flex, and a gap is provided by default.

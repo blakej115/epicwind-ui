@@ -1,5 +1,6 @@
 ---
 title: "Logo Component"
+slug: "component/logo"
 ---
 
 ## Basic Usage

@@ -1,4 +1,9 @@
 @theme {
-  --default-grid-gap: var(--spacing-md);
-  --default-flex-gap: var(--spacing-md);
+  --default-gutter: var(--gutter); /* Default gutter */
+  --default-grid-gap: var(
+    --default-gutter
+  ); /* Default gap for grid-* classes */
+  --default-flex-gap: var(
+    --default-gutter
+  ); /* Default gap for flex-* classes */
 }

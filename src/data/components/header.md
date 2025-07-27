@@ -1,5 +1,6 @@
 ---
 title: "Header Component"
+slug: "component/header"
 ---
 
 ## Basic Usage

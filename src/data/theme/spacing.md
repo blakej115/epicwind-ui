@@ -1,5 +1,6 @@
 ---
 title: "Theme Spacing"
+slug: "theme/spacing"
 ---
 
 ## Basic Usage
