@@ -22,6 +22,8 @@ The flex layout utilities provide an easy way to make a flex layout with columns
 </div>
 ```
 
+---
+
 ## Custom Gap
 
 <div class="flex-row-12 flex-gap-sm">
@@ -38,6 +40,8 @@ The flex layout utilities provide an easy way to make a flex layout with columns
   <div class="flex-col-fill">This takes up the remaining columns.</div>
 </div>
 ```
+
+---
 
 ## Customize Default Gap
 

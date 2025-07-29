@@ -35,6 +35,8 @@ Spacing variables are also included so they can also be used with Tailwind's def
 }
 ```
 
+---
+
 ## Basic Usage
 
 Check out the <a href="/utility/gutter">Gutter utility</a> to see how these can be used as utilities.

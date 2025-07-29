@@ -26,6 +26,8 @@ The gutter utilities provide built in spacing to handle the inside and outside g
 <div class="gutter-y-sm">This is a small gutter on the y axis only.</div>
 ```
 
+---
+
 ## Customize Default Gutters
 
 ### Default

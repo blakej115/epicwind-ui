@@ -4,7 +4,7 @@
     ul {
       li {
         a {
-          @apply px-sm py-xs block transition-colors;
+          @apply px-sm py-xs flex items-center transition-colors;
           @variant hover {
             @apply bg-secondary text-white;
           }

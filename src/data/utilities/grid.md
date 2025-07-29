@@ -22,6 +22,8 @@ The grid layout utilities provides an easy way to make a grid layout with column
 </div>
 ```
 
+---
+
 ## Custom Gap
 
 <div class="grid-row-12 gap-sm">
@@ -38,6 +40,8 @@ The grid layout utilities provides an easy way to make a grid layout with column
   <div class="grid-col-4">This takes up 4 columns.</div>
 </div>
 ```
+
+---
 
 ## Customize Default Gap
 

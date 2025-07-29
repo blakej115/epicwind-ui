@@ -1,0 +1,136 @@
+@layer components {
+  .tags {
+    @apply gap-2xs flex flex-wrap;
+  }
+  .tag {
+    @apply px-xs py-2xs bg-neutral inline-block rounded-md text-sm text-white transition-colors;
+  }
+  .tag-white {
+    @apply bg-white text-black;
+  }
+  .tag-black {
+    @apply bg-black;
+  }
+  .tag-lightest {
+    @apply bg-lightest text-black;
+  }
+  .tag-light {
+    @apply bg-light text-black;
+  }
+  .tag-neutral {
+    @apply bg-neutral;
+  }
+  .tag-dark {
+    @apply bg-dark;
+  }
+  .tag-darkest {
+    @apply bg-darkest;
+  }
+  .tag-primary {
+    @apply bg-primary;
+  }
+  .tag-secondary {
+    @apply bg-secondary;
+  }
+  .tag-tertiary {
+    @apply bg-tertiary;
+  }
+  .tag-quaternary {
+    @apply bg-quaternary;
+  }
+  .tag-success {
+    @apply bg-success;
+  }
+  .tag-error {
+    @apply bg-error;
+  }
+  .tag-notice {
+    @apply bg-notice;
+  }
+  .tag-warning {
+    @apply bg-warning;
+  }
+  .tag-info {
+    @apply bg-info;
+  }
+  .tag-deprecated {
+    @apply bg-deprecated;
+  }
+  .tag-decorative {
+    @apply bg-decorative;
+  }
+  .tag-muted {
+    @apply bg-muted;
+  }
+  a,
+  button {
+    &.tag,
+    &.tag-white,
+    &.tag-black,
+    &.tag-lightest,
+    &.tag-light,
+    &.tag-neutral,
+    &.tag-dark,
+    &.tag-darkest,
+    &.tag-success,
+    &.tag-error,
+    &.tag-notice,
+    &.tag-warning,
+    &.tag-info,
+    &.tag-deprecated,
+    &.tag-decorative,
+    &.tag-muted {
+      @apply cursor-pointer;
+    }
+    @variant hover {
+      &.tag {
+        @apply bg-dark;
+      }
+      &.tag-white {
+        @apply bg-neutral text-white;
+      }
+      &.tag-black {
+        @apply bg-neutral;
+      }
+      &.tag-lightest {
+        @apply bg-light;
+      }
+      &.tag-light {
+        @apply bg-neutral text-white;
+      }
+      &.tag-neutral {
+        @apply bg-dark;
+      }
+      &.tag-dark {
+        @apply bg-darkest;
+      }
+      &.tag-darkest {
+        @apply bg-black;
+      }
+      &.tag-success {
+        @apply bg-success-secondary;
+      }
+      &.tag-error {
+        @apply bg-error-secondary;
+      }
+      &.tag-notice {
+        @apply bg-notice-secondary;
+      }
+      &.tag-warning {
+        @apply bg-warning-secondary;
+      }
+      &.tag-info {
+        @apply bg-info-secondary;
+      }
+      &.tag-deprecated {
+        @apply bg-deprecated-secondary;
+      }
+      &.tag-decorative {
+        @apply bg-decorative-secondary;
+      }
+      &.tag-muted {
+        @apply bg-muted-secondary;
+      }
+    }
+  }
+}

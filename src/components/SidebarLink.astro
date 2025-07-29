@@ -5,7 +5,7 @@ const { pathname } = new URL(Astro.request.url);
 ---
 
 <li class={pathname === href ? "active" : ""}>
-  <a class="pl-sm" href={href}>
+  <a class="pl-sm gap-x-xs" href={href}>
     <slot />
   </a>
 </li>

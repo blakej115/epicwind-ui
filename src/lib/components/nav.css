@@ -5,7 +5,7 @@
       @apply gap-md flex;
       li {
         a {
-          @apply text-primary block transition-colors;
+          @apply text-primary flex items-center transition-colors;
           @variant hover {
             @apply text-secondary;
           }
