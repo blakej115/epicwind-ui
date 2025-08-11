@@ -1,39 +1,53 @@
 @theme {
-  --color-white: #fff;
-  --color-black: #000;
+  /* Brand Colors */
+  --color-primary: var(--color-blue-500);
+  --color-secondary: var(--color-blue-700);
+  --color-accent: var(--color-green-500);
+  --color-accent-alt: var(--color-green-700);
 
-  --color-lightest: var(--color-gray-100);
+  /* Grayscale */
+  --color-white: #fff;
   --color-light: var(--color-gray-300);
   --color-neutral: var(--color-gray-500);
   --color-dark: var(--color-gray-700);
-  --color-darkest: var(--color-gray-900);
+  --color-black: #000;
 
-  --color-primary: var(--color-blue-500);
-  --color-secondary: var(--color-blue-700);
-  --color-tertiary: var(--color-blue-900);
-  --color-quaternary: var(--color-blue-950);
-
+  /* Status Colors */
   --color-success: var(--color-green-500);
-  --color-success-secondary: var(--color-green-700);
-
   --color-error: var(--color-red-500);
-  --color-error-secondary: var(--color-red-700);
-
   --color-warning: var(--color-orange-500);
-  --color-warning-secondary: var(--color-orange-700);
-
   --color-notice: var(--color-yellow-500);
-  --color-notice-secondary: var(--color-yellow-600);
-
   --color-info: var(--color-blue-500);
-  --color-info-secondary: var(--color-blue-700);
-
   --color-deprecated: var(--color-purple-500);
-  --color-deprecated-secondary: var(--color-purple-700);
-
   --color-decorative: var(--color-pink-500);
-  --color-decorative-secondary: var(--color-pink-700);
-
   --color-muted: var(--color-yellow-700);
-  --color-muted-secondary: var(--color-yellow-900);
+
+  /* Variant Hover Background Colors */
+  --color-primary-hover: var(--color-blue-600);
+  --color-secondary-hover: var(--color-blue-800);
+  --color-accent-hover: var(--color-green-600);
+  --color-accent-alt-hover: var(--color-green-800);
+
+  --color-white-hover: var(--color-gray-100);
+  --color-light-hover: var(--color-gray-400);
+  --color-neutral-hover: var(--color-gray-600);
+  --color-dark-hover: var(--color-gray-800);
+  --color-black-hover: var(--color-gray-900);
+
+  --color-success-hover: var(--color-green-600);
+  --color-error-hover: var(--color-red-600);
+  --color-warning-hover: var(--color-orange-600);
+  --color-notice-hover: var(--color-yellow-600);
+  --color-info-hover: var(--color-blue-600);
+  --color-deprecated-hover: var(--color-purple-600);
+  --color-decorative-hover: var(--color-pink-600);
+  --color-muted-hover: var(--color-yellow-800);
+
+  /* Variant Text Colors */
+  --color-white-text: var(--color-black);
+  --color-light-text: var(--color-black);
+
+  /* Variant Hover Text Colors */
+  --color-white-text-hover: var(--color-black);
+  --color-light-text-hover: var(--color-white);
 }

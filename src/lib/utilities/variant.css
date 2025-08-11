@@ -1,0 +1,26 @@
+@utility variant-default {
+  background-color: var(--default-variant);
+  color: var(--default-variant-text);
+  &:is(a, button) {
+    @apply cursor-pointer;
+    @variant hover {
+      background-color: var(--default-variant-hover);
+      color: var(--default-variant-hover-text);
+    }
+  }
+}
+
+@utility variant-* {
+  background-color: --value(--color-*);
+  color: var(--default-variant-text);
+  color: --value(--color-*-text);
+  &:is(a, button) {
+    @apply cursor-pointer;
+    @variant hover {
+      background-color: var(--default-variant-hover);
+      color: var(--default-variant-hover-text);
+      background-color: --value(--color-*-hover);
+      color: --value(--color-*-text-hover);
+    }
+  }
+}

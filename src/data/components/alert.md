@@ -5,58 +5,156 @@ slug: "component/alert"
 
 ## Basic Usage
 
-<div class="alert">This is an alert.</div>
+Alerts are a good way to notify users of different events. Only `a` and `button` tags receive hover states by default.
+
+<div class="not-content flex flex-col gap-y-sm">
+  <a class="alert" href="#">Alert (a tag)</a>
+  <button class="alert">Alert (button tag)</button>
+  <div class="alert content">
+    <p>Alert (any other tag)</p>
+  </div>
+</div>
 
 <!-- prettier-ignore -->
 ```html
-<div class="alert">This is an alert.</div>
+<a class="alert">Alert (a tag)</a>
+<button class="alert">Alert (button tag)</button>
+<div class="alert content">
+  <p>Alert (any other tag)</p>
+</div>
 ```
 
 ---
 
 ## Variants
 
-### Colored Alerts
+Variants give an easy way to customize the alert component. See the [variant utilities](/utility/variant) to learn more.
 
-<div class="alert alert-white" href="#">This is a white alert.</div>
-<div class="alert alert-black" href="#">This is a black alert.</div>
-<div class="alert alert-lightest" href="#">This is the lightest alert.</div>
-<div class="alert alert-light" href="#">This is a light alert.</div>
-<div class="alert alert-neutral" href="#">This is a neutral alert.</div>
-<div class="alert alert-dark" href="#">This is a dark alert.</div>
-<div class="alert alert-darkest" href="#">This is the darkest alert.</div>
-<div class="alert alert-primary" href="#">This is a primary alert.</div>
-<div class="alert alert-secondary" href="#">This is a secondary alert.</div>
-<div class="alert alert-tertiary" href="#">This is a tertiary alert.</div>
-<div class="alert alert-quaternary" href="#">This is a quaternary alert.</div>
-<div class="alert alert-success" href="#">This is a success alert.</div>
-<div class="alert alert-error" href="#">This is an error alert.</div>
-<div class="alert alert-warning" href="#">This is a warning alert.</div>
-<div class="alert alert-notice" href="#">This is a notice alert.</div>
-<div class="alert alert-info" href="#">This is an info alert.</div>
-<div class="alert alert-deprecated" href="#">This is a deprecated alert.</div>
-<div class="alert alert-decorative" href="#">This is a decorative alert.</div>
-<div class="alert alert-muted" href="#">This is a muted alert.</div>
+### Colors
+
+#### Brand Colors
+
+<div class="alert variant-primary content">
+  <p>Primary Alert</p>
+</div>
+<div class="alert variant-secondary content">
+  <p>Secondary Alert</p>
+</div>
+<div class="alert variant-accent content">
+  <p>Accent Alert</p>
+</div>
+<div class="alert variant-accent-alt content">
+  <p>Accent Alt Alert</p>
+</div>
 
 <!-- prettier-ignore -->
 ```html
-<div class="alert alert-white" href="#">This is a white alert.</div>
-<div class="alert alert-black" href="#">This is a black alert.</div>
-<div class="alert alert-lightest" href="#">This is the lightest alert.</div>
-<div class="alert alert-light" href="#">This is a light alert.</div>
-<div class="alert alert-neutral" href="#">This is a neutral alert.</div>
-<div class="alert alert-dark" href="#">This is a dark alert.</div>
-<div class="alert alert-darkest" href="#">This is the darkest alert.</div>
-<div class="alert alert-primary" href="#">This is a primary alert.</div>
-<div class="alert alert-secondary" href="#">This is a secondary alert.</div>
-<div class="alert alert-tertiary" href="#">This is a tertiary alert.</div>
-<div class="alert alert-quaternary" href="#">This is a quaternary alert.</div>
-<div class="alert alert-success" href="#">This is a success alert.</div>
-<div class="alert alert-error" href="#">This is an error alert.</div>
-<div class="alert alert-warning" href="#">This is a warning alert.</div>
-<div class="alert alert-notice" href="#">This is a notice alert.</div>
-<div class="alert alert-info" href="#">This is an info alert.</div>
-<div class="alert alert-deprecated" href="#">This is a deprecated alert.</div>
-<div class="alert alert-decorative" href="#">This is a decorative alert.</div>
-<div class="alert alert-muted" href="#">This is a muted alert.</div>
+<div class="alert variant-primary content">
+  <p>Primary Alert</p>
+</div>
+<div class="alert variant-secondary content">
+  <p>Secondary Alert</p>
+</div>
+<div class="alert variant-accent content">
+  <p>Accent Alert</p>
+</div>
+<div class="alert variant-accent-alt content">
+  <p>Accent Alt Alert</p>
+</div>
+```
+
+---
+
+#### Grayscale Colors
+
+<div class="alert variant-white content">
+  <p>White Alert</p>
+</div>
+<div class="alert variant-light content">
+  <p>Light Alert</p>
+</div>
+<div class="alert variant-neutral content">
+  <p>Neutral Alert</p>
+</div>
+<div class="alert variant-dark content">
+  <p>Dark Alert</p>
+</div>
+<div class="alert variant-black content">
+  <p>Black Alert</p>
+</div>
+
+<!-- prettier-ignore -->
+```html
+<div class="alert variant-white content">
+  <p>White Alert</p>
+</div>
+<div class="alert variant-light content">
+  <p>Light Alert</p>
+</div>
+<div class="alert variant-neutral content">
+  <p>Neutral Alert</p>
+</div>
+<div class="alert variant-dark content">
+  <p>Dark Alert</p>
+</div>
+<div class="alert variant-black content">
+  <p>Black Alert</p>
+</div>
+```
+
+---
+
+#### Status Colors
+
+<div class="alert variant-success content">
+  <p>Success Alert</p>
+</div>
+<div class="alert variant-error content">
+  <p>Error Alert</p>
+</div>
+<div class="alert variant-warning content">
+  <p>Warning Alert</p>
+</div>
+<div class="alert variant-notice content">
+  <p>Notice Alert</p>
+</div>
+<div class="alert variant-info content">
+  <p>Info Alert</p>
+</div>
+<div class="alert variant-deprecated content">
+  <p>Deprecated Alert</p>
+</div>
+<div class="alert variant-decorative content">
+  <p>Decorative Alert</p>
+</div>
+<div class="alert variant-muted content">
+  <p>Muted Alert</p>
+</div>
+
+<!-- prettier-ignore -->
+```html
+<div class="alert variant-success content">
+  <p>Success Alert</p>
+</div>
+<div class="alert variant-error content">
+  <p>Error Alert</p>
+</div>
+<div class="alert variant-warning content">
+  <p>Warning Alert</p>
+</div>
+<div class="alert variant-notice content">
+  <p>Notice Alert</p>
+</div>
+<div class="alert variant-info content">
+  <p>Info Alert</p>
+</div>
+<div class="alert variant-deprecated content">
+  <p>Deprecated Alert</p>
+</div>
+<div class="alert variant-decorative content">
+  <p>Decorative Alert</p>
+</div>
+<div class="alert variant-muted content">
+  <p>Muted Alert</p>
+</div>
 ```

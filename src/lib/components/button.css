@@ -1,0 +1,8 @@
+@layer components {
+  .buttons {
+    @apply gap-2xs flex flex-wrap;
+  }
+  .button {
+    @apply px-sm py-xs variant-default inline-block rounded-md transition-colors;
+  }
+}

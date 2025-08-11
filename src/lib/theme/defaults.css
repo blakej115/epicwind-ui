@@ -1,9 +1,27 @@
 @theme {
-  --default-gutter: var(--gutter); /* Default gutter */
-  --default-grid-gap: var(
-    --default-gutter
-  ); /* Default gap for grid-* classes */
-  --default-flex-gap: var(
-    --default-gutter
-  ); /* Default gap for flex-* classes */
+  /* Default values */
+  --default-gutter: var(--gutter-md); /* Default gutter */
+  --default-border: 1px solid var(--color-neutral); /* Default border */
+  --default-radius: var(--border-radius-md); /* Default border radius */
+  --default-shadow: var(--shadow-md); /* Default box-shadow */
+
+  /* Default variant */
+  --default-variant: var(--color-neutral); /* Default variant background */
+  --default-variant-text: var(--color-white); /* Default variant text color */
+  --default-variant-hover: var(--color-dark); /* Default variant hover background */
+  --default-variant-hover-text: var(--color-white); /* Default variant hover text color */
+
+  /* Box component */
+  --default-box-border: var(--default-border); /* Default border for box class */
+  --default-box-radius: var(--default-radius); /* Default border-radius for box class */
+  --default-box-shadow: var(--default-shadow); /* Default box-shadow for box class */
+
+  /* Card component */
+  --default-card-border: var(--default-border); /* Default border for card class */
+  --default-card-radius: var(--default-radius); /* Default border-radius for card class */
+  --default-card-shadow: var(--default-shadow); /* Default box-shadow for card class */
+
+  /* Gaps */
+  --default-grid-gap: var(--default-gutter); /* Default gap for grid-* classes */
+  --default-flex-gap: var(--default-gutter); /* Default gap for flex-* classes */
 }

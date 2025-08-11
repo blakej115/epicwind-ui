@@ -13,18 +13,19 @@ Spacing variables are also included so they can also be used with Tailwind's def
 ```css
 @theme {
   /* Default gutter */
-  --gutter: var(--gutter-md);
+  --gutter: var(--default-gutter);
 
   /* Gutters */
-  --gutter-2xs: calc(var(--spacing) * 1);
-  --gutter-xs: calc(var(--spacing) * 2);
-  --gutter-sm: calc(var(--spacing) * 4);
-  --gutter-md: calc(var(--spacing) * 8);
-  --gutter-lg: calc(var(--spacing) * 16);
-  --gutter-xl: calc(var(--spacing) * 32);
-  --gutter-2xl: calc(var(--spacing) * 64);
+  --gutter-2xs: var(--spacing-2xs);
+  --gutter-xs: var(--spacing-xs);
+  --gutter-sm: var(--spacing-sm);
+  --gutter-md: var(--spacing-md);
+  --gutter-lg: var(--spacing-lg);
+  --gutter-xl: var(--spacing-xl);
+  --gutter-2xl: var(--spacing-2xl);
 
   /* Use as spacing */
+  --spacing-gutter: var(--gutter);
   --spacing-gutter-2xs: var(--gutter-2xs);
   --spacing-gutter-xs: var(--gutter-xs);
   --spacing-gutter-sm: var(--gutter-sm);

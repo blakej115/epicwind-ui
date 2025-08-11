@@ -1,0 +1,5 @@
+@layer components {
+  .break {
+    @apply h-0 w-full border-0;
+  }
+}

@@ -1,0 +1,2 @@
+# Fix conflicts with prettier and Tailwind's @utility
+src/lib/utilities/*.css

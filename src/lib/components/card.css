@@ -1,0 +1,14 @@
+@layer components {
+  .card {
+    @apply overflow-hidden rounded-(--default-card-radius) bg-white shadow-(--default-card-shadow);
+    border: var(--default-card-border);
+  }
+
+  .card-img {
+    @apply w-full;
+  }
+
+  .card-content {
+    @apply p-md;
+  }
+}
