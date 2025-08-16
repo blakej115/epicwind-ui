@@ -1,0 +1,58 @@
+@layer components {
+  .offcanvas {
+    @apply relative overflow-hidden;
+  }
+
+  .offcanvas-content {
+    @apply invisible fixed top-0 bottom-0 z-999 w-full max-w-0 bg-gray-300 opacity-0 transition-all duration-1000 ease-in-out;
+    &.left {
+      @apply left-0 text-right;
+      .offcanvas-close {
+        @apply ml-auto;
+      }
+    }
+    &.right {
+      @apply right-0;
+    }
+  }
+
+  .offcanvas-button,
+  .offcanvas-close {
+    @apply relative flex h-[42px] w-[50px] cursor-pointer flex-col gap-[5px] rounded-sm bg-gray-300 p-[10px] transition-all duration-500 ease-in-out hover:bg-black;
+    svg {
+      @apply transition duration-500;
+    }
+    &:hover svg path {
+      @apply stroke-white;
+    }
+  }
+
+  .offcanvas-close {
+    @apply bg-white hover:bg-black;
+  }
+
+  .offcanvas-label {
+    @apply absolute top-0 left-0 h-full w-full cursor-pointer;
+  }
+
+  .offcanvas-logic {
+    @apply hidden;
+  }
+
+  #offcanvas-open:checked ~ .offcanvas-button,
+  #offcanvas-open-left:checked ~ .offcanvas-button {
+    @apply invisible opacity-0;
+  }
+
+  #offcanvas-open:checked ~ .offcanvas-content,
+  #offcanvas-open-left:checked ~ .offcanvas-content {
+    @apply visible max-w-[300px] opacity-100;
+  }
+
+  .offcanvas-inner {
+    @apply p-5;
+    > ul {
+      @apply mt-5;
+    }
+  }
+}
