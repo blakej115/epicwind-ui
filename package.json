@@ -1,6 +1,6 @@
 {
   "name": "epicwind-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "src/lib/epicwind-ui.css",
   "description": "Lightweight, free, pure CSS components for Tailwind CSS.",
