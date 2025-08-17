@@ -16,6 +16,10 @@ Some default CSS variables are included to change defaults for various component
   --default-radius: var(--border-radius-md); /* Default border radius */
   --default-shadow: var(--shadow-md); /* Default box-shadow */
 
+  /* Default link */
+  --default-link: var(--color-primary); /* Default link color */
+  --default-link-hover: var(--color-primary-hover); /* Default link hover color */
+
   /* Default variant */
   --default-variant: var(--variant-neutral); /* Default variant background */
   --default-variant-text: var(--white); /* Default variant text color */

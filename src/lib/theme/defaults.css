@@ -5,6 +5,10 @@
   --default-radius: var(--border-radius-md); /* Default border radius */
   --default-shadow: var(--shadow-md); /* Default box-shadow */
 
+  /* Default link */
+  --default-link: var(--color-primary); /* Default link color */
+  --default-link-hover: var(--color-primary-hover); /* Default link hover color */
+
   /* Default variant */
   --default-variant: var(--color-neutral); /* Default variant background */
   --default-variant-text: var(--color-white); /* Default variant text color */

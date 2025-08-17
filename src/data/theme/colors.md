@@ -32,8 +32,8 @@ Epicwind UI includes a naming convention for colors. You can replace the default
   --color-deprecated: var(--color-purple-500);
   --color-decorative: var(--color-pink-500);
   --color-muted: var(--color-yellow-700);
-
-  /* Variant Hover Background Colors */
+  
+  /* Link Hover Text Colors & Variant Hover Background Colors */
   --color-primary-hover: var(--color-blue-600);
   --color-secondary-hover: var(--color-blue-800);
   --color-accent-hover: var(--color-green-600);

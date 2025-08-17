@@ -1,0 +1,8 @@
+@layer components {
+  .list {
+    @apply gap-x-gutter flex flex-row;
+    .link {
+      @apply block;
+    }
+  }
+}

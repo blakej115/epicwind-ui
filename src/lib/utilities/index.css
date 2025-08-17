@@ -1,4 +1,5 @@
+@import "./flex";
 @import "./grid";
 @import "./gutter";
-@import "./flex";
+@import "./link";
 @import "./variant";

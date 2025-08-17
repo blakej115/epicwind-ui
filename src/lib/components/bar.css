@@ -1,0 +1,5 @@
+@layer components {
+  .bar {
+    @apply variant-default gutter-x gutter-y-sm flex items-center justify-between;
+  }
+}

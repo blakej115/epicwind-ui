@@ -1,0 +1,14 @@
+@utility link {
+  color: var(--default-link);
+  @apply transition-colors;
+  @variant hover {
+    color: var(--default-link-hover);
+  }
+}
+
+@utility link-* {
+  color: --value(--color-*);
+  @variant hover {
+    color: --value(--color-*-hover);
+  }
+}
