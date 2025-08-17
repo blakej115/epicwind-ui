@@ -3,4 +3,4 @@ title: "Variant Utilities"
 slug: "utility/variant"
 ---
 
-The variant utility will have documentation provided here soon.
+These utilities already exist, but still need further documentation.
