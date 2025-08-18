@@ -1,5 +1,12 @@
 # Ideas
 
+- Github Link
+
+## Intro
+
+- Contributing
+- Philosophy
+
 ## Components
 
 - Accordion
@@ -16,9 +23,11 @@
 - Item
 - Label
 - Loader
+- Main
 - Notification
 - Post
 - Progress
+- Section (Layout)
 - Separator
 - Search
 - Slider
@@ -33,6 +42,7 @@
 - Bottom Right (Position)
 - Center (Position)
 - Clear Fix
+- Combine
 - End (Position)
 - Evenly (Position)
 - Offset (Position)
@@ -52,3 +62,7 @@
 
 - Dark Mode
 - Other Colored Themes
+
+## Other
+
+- Consider reworking link component to use variant utilities, and/or rework CSS variable names to make them make more sense and be easier to customize.

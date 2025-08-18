@@ -88,3 +88,15 @@ You can also use `link-*`, where `*` is any color registered in Tailwind. You wi
 <a class="link link-decorative" href="#">Decorative Link</a>
 <a class="link link-muted" href="#">Muted Link</a>
 ```
+
+## Customizing
+
+You may edit the `--color-*`, and `--color-*-hover` variables to overwride these colors.
+
+Note that the [`variant`](/utility/variant) utility uses these variables, but in a different way. See it's docs for more info.
+
+<!-- prettier-ignore -->
+```css
+  --color-primary: var(--color-green-200)
+  --color-primary-hover: var(--color-green-800);
+```
